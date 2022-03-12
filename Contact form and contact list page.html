@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1>Contact Form and Contact List Page</h1>
+<h2>Add Contacts</h2>
+
+
+<form action="/action_page.php" method="post">
+
+  <div class="container">
+    <label for="Name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="Name" required>
+
+    <label for="phone no"><b>Phone no</b></label>
+    <input type="phone no" placeholder="Enter 10-digits number" name="phn" required>
+
+    <label for="Email"><b>Email</b></label>
+    <input type="Email" placeholder="Enter Email" name="email" required>
+        
+    <button type="save">save</button>
+  </div>
+
+</form>
+
+</body>
+</html>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>My Contacts</h2>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>phone number</th>
+    <th>Email</th>
+  </tr>
+  <tr>
+    <td>Alina</td>
+    <td>6753458975</td>
+    <td>Alina8900@gmail.com</td>
+  </tr>
+  <tr>
+    <td>Yoho</td>
+    <td>6321457975</td>
+    <td>Yoho345@gmail.com</td>
+  </tr>
+  <tr>
+    <td>Tina</td>
+    <td>9876543216</td>
+    <td>Tina5467@gmail.com</td>
+  </tr>
+  <tr>
+    <td>Rahul</td>
+    <td>1234509876</td>
+    <td>Rahul9878@gmail.com</td>
+  </tr>
+  <tr>
+    <td>Priya</td>
+    <td>2345612345</td>
+    <td>priyaert@gmail.com</td>
+  </tr>
+</table>
+
+</body>
+</html>
